@@ -21,3 +21,42 @@ body{
     margin: 0 auto;
     background-color: #fff;
 }
+
+.screen{
+    width: 100%;
+    height: 100vh;
+}
+
+.screen1{
+    background-color: #22cd12;
+}
+
+.screen2{
+    background: rgb(18,37,205);
+    background: linear-gradient(135deg, rgba(18,37,205,1) 0%, rgba(34,205,18,1) 50%, rgba(0,206,255,1) 100%);
+}
+
+.screen3{
+    background-image: url("ava7patterns_pattern_1877.png");
+    /* background-repeat: no-repeat; */
+
+}
+
+.screen4{
+    background-image: url("https://loremflickr.com/800/680/car");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.screen5{
+    background-image: url("https://loremflickr.com/600/480/cat");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.screen6{
+    background-image: url("https://loremflickr.com/600/480/dog");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
